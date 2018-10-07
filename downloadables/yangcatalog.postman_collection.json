@@ -836,7 +836,7 @@
 			"response": []
 		},
 		{
-			"name": "Retrun all YANG modules that are common between ISR4000 IOS 16.6.1 and 16.6.2",
+			"name": "Return all YANG modules that are common between ISR4000 IOS 16.6.1 and 16.6.2",
 			"request": {
 				"auth": {
 					"type": "basic",

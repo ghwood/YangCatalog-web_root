@@ -3,7 +3,7 @@ Static web content for yangcatalog.org
 
 ## NGINX Configuration
 
-Server Side Includes must be enabled for the static page to work (mainly to have a similar footer).
+Server Side Includes must be enabled for the static page to work (mainly to have similar header and footer).
 
 ```
        location / {

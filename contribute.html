@@ -355,6 +355,19 @@ Content-type: application/json
                     <b>https://yangcatalog.org/api/vendors/vendor/{name}</b>.
                      You can continue deeper on the vendors branch up to software-flavor
                   </li>
+                  <li>Use an HTTP DELETE request to do a bulk delete on modules specified with json body
+                    <b>https://yangcatalog.org/api/modules</b>.
+                      <pre>
+{
+  "input": {
+    "modules": [
+      { "name": "module-foo", "revision": "revision-foo", "organization": "organization-foo" },
+      { "name": "module-bar", "revision": "revision-bar", "organization": "organization-bar" }
+    ]
+  }
+}
+                      </pre>
+                  </li>
                 </ol>
                 <p><b>NOTE:</b> Deleting implementation metadata is currently not possible.</p>
               </div>
